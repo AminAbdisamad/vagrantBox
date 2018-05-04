@@ -1,4 +1,4 @@
-# Settup Vagrant Box
+# Setup Vagrant Box
 
 Isolated portable development environment
 
@@ -50,7 +50,7 @@ after excuting or uncommenting this you need to restart your box
 vagrant relaod
 ```
 
-And you can install software and packages using inline provision(with in Vigrantfile) or through path in this settup we have used a file install.sh
+And you can install software and packages using inline provision(with in Vigrantfile) or through path in this setup we have used a file install.sh
 
 ```
   config.vm.provision "shell", path: "install.sh"
